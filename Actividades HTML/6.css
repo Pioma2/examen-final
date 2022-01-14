@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+    background-color: #9AD3CD;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}

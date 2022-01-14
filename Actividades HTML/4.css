@@ -1,0 +1,33 @@
+h1 {
+	color: #ffff; 
+}
+
+h2 {
+	color: #031FF7;
+}
+
+ul {
+  background: #000000;
+  padding: 3px;
+  width: 50%;
+}
+
+
+ul li {
+  background: #cce4ff;
+  margin: 5px;
+    padding: 5px;
+}
+
+body{
+	background:  #00aae4;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}

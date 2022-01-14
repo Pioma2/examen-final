@@ -1,0 +1,94 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -13px;
+  margin-top: -15px;
+  width: 367px;
+  height: 355px;
+  background-color: #f1f1f1;
+  opacity: 0.9;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: #4FC0EF;
+  color: white;
+  opacity: 0.9;
+}
+
+body{
+    margin: 6px;
+    padding: 20;
+    background-image: url("");  
+    background-position: center;
+    font-family: sans-serif;
+    background-size: 150px;
+    position: absolute;
+    width: 99%;
+    height: 99%;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  opacity: 1;
+  margin-bottom: 4px;
+  background-image: url("../Imagenes/banner2.jpg");
+  height: 230px;
+}
+
+nav {
+ 
+  float: left;
+  width: 30%;
+  height: 366px; 
+  background: #ccc;
+  padding: 20px;
+  opacity: 0.9;
+  font-family: monospace;
+  font-size: 15px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  opacity: 0.9;
+  float: right;
+  padding: 20px;
+  width: 69.9%;
+  background-color: #f1f1f1;
+  height: 366px;
+  font-family: cursive;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
